@@ -1,4 +1,4 @@
-# Auto-report action script, 3 times a day
+# Auto-report action script, 2 times a day
 
 name: Auto-report action
 
@@ -7,7 +7,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: '10/10  8 * * *'
+    - cron: '36/10 5 * * *'
 
 jobs:
   build:
